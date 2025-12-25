@@ -33,7 +33,7 @@ public class GraphRepresentationAsAdjacencyLists {
       graph.get(v).add(u);
     }
 
-    // Print adjacency list
+    // Print adjacency list147
     System.out.println("\nAdjacency List:");
     for (int i = 1; i <= n; i++) {
       System.out.print(i + ": " + graph.get(i));
